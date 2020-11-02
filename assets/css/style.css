@@ -1,0 +1,36 @@
+.post-date{
+	background:#f4f4f4;
+	padding:4px;
+	margin:3px 0;
+	display:block;
+}
+
+.post-thumb{
+	width:100%;  /* zavzame 100% contejnerja v katerem je */
+}
+
+
+.pagination-links{
+	margin:30px 0;
+	text-align: center;
+}
+
+.pagination-links strong{   /* Za pagination na keterm smo(Ni link, ima "strong atribut-tako ga lah dostopamo") */
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+a.pagination-link{          /* "a" je za link */ 
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+.cat-delete{
+	display: inline;
+}
+
+
